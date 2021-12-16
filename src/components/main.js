@@ -81,3 +81,4 @@ export const Background = () => {
     <img src={back} alt="back" className="back"/>
     )
 }
+
