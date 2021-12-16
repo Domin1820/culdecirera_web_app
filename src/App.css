@@ -1,0 +1,142 @@
+
+.App {
+  font-size: 10px ;
+  text-align: center;
+  text-align: center;
+  z-index: 1;
+
+
+}
+
+
+
+.welcome {
+  border: 8px solid black;
+  border-image: url("/Users/sunday/Desktop/Proyectos/webjordi/my-app/src/assets/img/tumblr_inline_o98mskFnTn1u2r0ws_540.png") repeat;
+  border-image-slice: 37%;
+  padding-bottom: 50px;
+  float: left;
+  float: right;
+  background-color: white;
+  margin-top: 30px;
+  min-height: 90%;
+
+
+}
+
+.leftcont {
+  border: 8px solid black;
+  border-image: url("/Users/sunday/Desktop/Proyectos/webjordi/my-app/src/assets/img/tumblr_inline_o98mskFnTn1u2r0ws_540.png") repeat;
+  border-image-slice: 37%;
+  padding-bottom: 50px;
+  background-color: white;
+  margin-top: 30px;
+  max-height: 81%;
+  }
+
+.righcont {
+  border: 8px solid black;
+  border-image: url("/Users/sunday/Desktop/Proyectos/webjordi/my-app/src/assets/img/tumblr_inline_o98mskFnTn1u2r0ws_540.png") repeat;
+  border-image-slice: 37%;
+  padding-bottom: 50px;
+  background-color: white;
+  margin-top: 30px;
+  min-height: 81%;
+  
+}
+
+
+      /* images */
+.cirera {
+  width: 80%;
+}
+
+.sailor {
+  width: 90%;
+}
+
+.cul {
+  width: 60%;
+}
+
+.back {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  
+}
+
+.hello {
+  width: 90%;
+}
+
+/* navbar */
+
+.lazo {
+  list-style: none;
+  background-position: left;
+  background-image: url('../src/assets/img/tumblr_inline_p8c0ywl30E1rhwzwl_100.png');
+  background-size: 1.5vh;
+  background-repeat: no-repeat;
+  height: 20px;
+}
+.icecream{
+  list-style: none;
+  background-position: left;
+  background-image: url('../src/assets/img/tumblr_inline_p8c0ywl30E1rhwzwl_100.png');
+  background-size: 1.5vh;
+  background-repeat: no-repeat;
+  height: 20px;
+  
+
+}
+
+.cupcake{
+  list-style: none;
+  background-position: left;
+  background-image: url('../src/assets/img/tumblr_inline_p8c0ywl30E1rhwzwl_100.png');
+  background-size: 1.5vh;
+  background-repeat: no-repeat;
+  height: 20px;
+
+}
+
+.cake{
+  list-style: none;
+  background-position: left;
+  background-image: url('../src/assets/img/tumblr_inline_p8c0ywl30E1rhwzwl_100.png');
+  background-size: 1.5vh;
+  background-repeat: no-repeat;
+  height: 20px;
+}
+
+.linksig {
+  list-style: none;
+  background-position: left;
+  background-image: url('../src/assets/img/instagram.png');
+  background-size: 1.5vh;
+  background-repeat: no-repeat;
+  height: 20px;
+  margin-left: 5px;
+  font-size: 1.5vh;
+
+}
+
+.linkstw {
+  list-style: none;
+  background-position: left;
+  background-image: url('../src/assets/img/580b57fcd9996e24bc43c53e.png');
+  background-size: 1.5vh;
+  background-repeat: no-repeat;
+  height: 20px;
+  margin-left: 5px;
+  font-size: 1.8vh;
+}
+
+
+
+.text--style {
+  text-decoration: none;
+  color: lightblue;
+}
