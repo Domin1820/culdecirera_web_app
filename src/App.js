@@ -1,5 +1,5 @@
 import './App.css';
-import {Background, Welcome} from './components/main.js';
+import {Background, Welcome, Music} from './components/main.js';
 import {Left, Footer, Header} from './components/main.js';
 import {Rightbox} from './components/main.js';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
@@ -12,10 +12,14 @@ function App() {
         <Header/>
         <Container className="App">
           <Row>
+            <Music/>
+          </Row>
+          <Row>
             <Col xs={3}><Left/></Col>
             <Col xs={6}><Welcome/></Col>
             <Col xs={3}><Rightbox/></Col>
           </Row>
+
         </Container>
         <Footer/>
     </div>

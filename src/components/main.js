@@ -4,6 +4,8 @@ import '../App.css';
 import cirera from "../assets/img/cirera.jpeg"
 import {Row, Container} from "react-bootstrap";
 import hello from '../assets/img/original.gif';
+import Izumi from '../assets/mp3/Izumi Makura - Shiritai (Full Official).mp3'
+
 
 
 export const Header = () => {
@@ -53,6 +55,20 @@ export const Left = () => {
     )
 }
 
+export const Music =() => {
+    // const {music, setMusic} = useState(false);
+
+    return (
+        <div>
+            <audio controls className="audio">
+                
+                <source src={Izumi} type="audio/mp3"></source>
+            </audio>
+            {/* <button><img className="music" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFH7g7H4aUJHGFnQ5NbGayqW0uYa2NBHu7jUhn6VMC-RPEw1Urc0UNBc9mHDursuV7BoI&usqp=CAU" alt="shiritai"></img></button> */}
+        </div>
+    )
+}
+
 export const Rightbox = () => {
 
     const [link, setLink] = useState(false);
@@ -77,7 +93,7 @@ export const Rightbox = () => {
                             <li className="icecream"><a href="about" className="text--style">services</a></li>
                         </Row>
                     </Container>
-                    <button  onClick={()=> setLink(!link)}><img className="click" src="https://img2.freepng.es/20180515/pkw/kisspng-windows-95-computer-icons-operating-systems-window-5afa97ed718b42.9889684815263723334651.jpg" alt="click"></img></button>
+                    <button  className="click" onClick={()=> setLink(!link)}><img className="click2" src="https://www.pngkey.com/png/full/142-1426797_download-count-windows-95-icon-png.png" alt="click"></img></button>
 
             </div>
         </div>

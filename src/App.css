@@ -1,17 +1,11 @@
 .click {
   display: none;
-  width: 20px;
-  height: 20px;
+  
 }
 
-
-@media only screen and (max-width: 750px) {
-  .click {
-    display: block;
-  }
-  .navbar--links {
-    display: none;
-  }
+.click2 {
+  width: 20px;
+  height: 20px;
 }
 
 #hidden {
@@ -185,5 +179,36 @@
 
 .text--style {
   text-decoration: none;
-  color: lightblue;
+  color: rgb(88, 161, 221);
+  margin-left: 10px;
+}
+
+@media screen and (max-device-width:640px) {
+  .icecream .lazo .cake .cupcake {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .click {
+    display: block;
+  }
+  .navbar--links {
+    display: none;
+  }
+}
+
+
+.music {
+  width: 20px;
+  height: 20px;
+}
+
+.audio {
+  max-height: 30px;
+  background:#000080 ;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  border-style:solid;
+  padding:1px;
 }
