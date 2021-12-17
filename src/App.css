@@ -84,7 +84,8 @@
 .back {
   width: 100%;
   min-width: 320px;
-  height: 812px;
+  min-height: 900px;
+  max-height: auto;
   z-index: -1;
   position: absolute;
   
