@@ -31,6 +31,7 @@ export const Left = () => {
     return (
         <div className="leftcont">
             <img src={cirera} alt="cirera" className="cirera"/>
+            <p>Please be my friend</p>
             <Row xs={2} >
                 <li className="linksig"><a href="instagram" className="text--style">Instagram</a></li>
             </Row>
@@ -38,7 +39,6 @@ export const Left = () => {
                 <li className="linkstw"><a href="twitter" className="text--style">Twitter</a></li>
             </Row>
 
-            <p>29/30 spark kirari</p>
             <p>9/15 SRR ticket</p>
             <p>initial: feb. 29 ; cinfes: apr. 30</p>
             <p>feel free to email me if you would like me to add your stamp as well!</p>
@@ -79,6 +79,20 @@ export const Rightbox = () => {
 export const Background = () => {
     return(
     <img src={back} alt="back" className="back"/>
+    )
+}
+
+export const Footer = () => {
+    return (
+    <p>
+        <img src="IMG/tumblr_c1b10daf8e1c276e29b329698d59c13d_9350cac2_250.gif" alt="" width="86" height="27"></img>
+        <img src="IMG/tumblr_e34f4f097ec9a58c69b94ea97c598d01_68ace434_250.gif" alt="" width="86" height="27"></img>
+        <img src="IMG/tumblr_b22e2d67838f2f8b8eee7588f1dd0095_089d50d3_250.gif" alt="" width="79" height="28"></img>
+        <img src="IMG/tumblr_2df0f115b54f008059eb1e7cca8d900c_4f910faa_250.gif" alt="" width="86" height="27"></img>
+        <img src="IMG/tumblr_4d082a3d99a49bea0d528128f2643470_0d614b28_250.gif" alt="" width="86" height="27"></img>
+        <img src="IMG/tumblr_7cbab485d0f3e4217c116afa16ebe46c_b4e3fc6b_250.jpg" alt="" width="83" height="26"></img>
+        <img src="IMG/tumblr_bca18195e81b0fd1771f6cb65b2577eb_669f7204_250.gif" alt="" width="86" height="27"></img>
+    </p>
     )
 }
 
