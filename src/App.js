@@ -1,6 +1,6 @@
 import './App.css';
 import {Background, Welcome} from './components/main.js';
-import {Left, Footer} from './components/main.js';
+import {Left, Footer, Header} from './components/main.js';
 import {Rightbox} from './components/main.js';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import {Container, Row, Col} from 'react-bootstrap';
@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
         <Background/>
+        <Header/>
         <Container className="App">
           <Row>
             <Col xs={3}><Left/></Col>
