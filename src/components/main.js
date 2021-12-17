@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import sailor from "../assets/img/sailormoon.gif"
 import '../App.css';
 import cirera from "../assets/img/cirera.jpeg"
@@ -54,26 +54,32 @@ export const Left = () => {
 }
 
 export const Rightbox = () => {
+
+    const [link, setLink] = useState(false);
+
     return (
         <div>
             <div className="righcont">
-            <div>
-                <img src={sailor} alt="sailor" className="sailor"/>
-            </div>
-            <div>
-                <img src="https://culdecirera.neocities.org/IMG/tumblr_6725d23abbed3726d5d57ebe2d8b6b9f_d8b3df0c_250.gif" alt="pinkribbon" className="cirera"></img>
-            </div>
-            <Container className="navbar--links">
-                    <Row xs={2} >
-                        <li className="lazo"><a href="default" className="text--style">about</a></li>
-                        <li className="cupcake"><a href="news" className="text--style">design</a></li>
-                    </Row>
-                    <Row xs={2}>
-                        <li className="cake"><a href="https://www.etsy.com/es/shop/Culdecirera?ref=profile_header" className="text--style">shop</a></li>
-                        <li className="icecream"><a href="about" className="text--style">services</a></li>
-                    </Row>
-                </Container>
+                <div>
+                    <img src={sailor} alt="sailor" className="sailor"/>
                 </div>
+                <div>
+                    <img src="https://culdecirera.neocities.org/IMG/tumblr_6725d23abbed3726d5d57ebe2d8b6b9f_d8b3df0c_250.gif" alt="pinkribbon" className="cirera"></img>
+                </div>
+
+                    <Container className="navbar--links" id={link ? "hidden" : ""}>
+                        <Row xs={2} >
+                            <li className="lazo"><a href="default" className="text--style">about</a></li>
+                            <li className="cupcake"><a href="news" className="text--style">design</a></li>
+                        </Row>
+                        <Row xs={2}>
+                            <li className="cake"><a href="https://www.etsy.com/es/shop/Culdecirera?ref=profile_header" className="text--style">shop</a></li>
+                            <li className="icecream"><a href="about" className="text--style">services</a></li>
+                        </Row>
+                    </Container>
+                    <button  onClick={()=> setLink(!link)}><img className="click" src="https://img2.freepng.es/20180515/pkw/kisspng-windows-95-computer-icons-operating-systems-window-5afa97ed718b42.9889684815263723334651.jpg" alt="click"></img></button>
+
+            </div>
         </div>
     )
 }
