@@ -6,6 +6,7 @@
   z-index: 1;
   font-family:'Times New Roman', Times, serif;
   font-weight: 800;
+  min-width: 320px;
 
 
 }
@@ -19,11 +20,10 @@
 
 .footercul {
 
-  max-width: 812px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 30px;
-
+  width: 320px;
+  display: block;
+  align-items: center;
+  margin: auto;
 }
 
 .welcome {
@@ -84,8 +84,8 @@
 .back {
   width: 100%;
   min-width: 320px;
-  min-height: 900px;
-  max-height: auto;
+  min-height: 800px;
+  max-height: 1200px;
   z-index: -1;
   position: absolute;
   
