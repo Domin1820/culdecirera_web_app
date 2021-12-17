@@ -12,7 +12,7 @@
 
 .welcome {
   border: 8px solid black;
-  border-image: url("/Users/sunday/Desktop/Proyectos/webjordi/my-app/src/assets/img/tumblr_inline_o98mskFnTn1u2r0ws_540.png") repeat;
+  border-image: url("https://i.ibb.co/n6LTKgW/tumblr-inline-o98msk-Fn-Tn1u2r0ws-540.png") repeat;
   border-image-slice: 37%;
   padding-bottom: 50px;
   float: left;
@@ -26,7 +26,7 @@
 
 .leftcont {
   border: 8px solid black;
-  border-image: url("/Users/sunday/Desktop/Proyectos/webjordi/my-app/src/assets/img/tumblr_inline_o98mskFnTn1u2r0ws_540.png") repeat;
+  border-image: url("https://i.ibb.co/n6LTKgW/tumblr-inline-o98msk-Fn-Tn1u2r0ws-540.png") repeat;
   border-image-slice: 37%;
   padding-bottom: 50px;
   background-color: white;
@@ -36,7 +36,7 @@
 
 .righcont {
   border: 8px solid black;
-  border-image: url("/Users/sunday/Desktop/Proyectos/webjordi/my-app/src/assets/img/tumblr_inline_o98mskFnTn1u2r0ws_540.png") repeat;
+  border-image: url("https://i.ibb.co/n6LTKgW/tumblr-inline-o98msk-Fn-Tn1u2r0ws-540.png") repeat;
   border-image-slice: 37%;
   padding-bottom: 50px;
   background-color: white;
@@ -76,16 +76,16 @@
 .lazo {
   list-style: none;
   background-position: left;
-  background-image: url('../src/assets/img/tumblr_inline_p8c0ywl30E1rhwzwl_100.png');
-  background-size: 1.5vh;
+  background-image: url('https://i.pinimg.com/564x/ba/62/28/ba6228a3b57bc2e51c36e2a2383f43cd.jpg');
+  background-size: 4.5vh;
   background-repeat: no-repeat;
   height: 20px;
 }
 .icecream{
   list-style: none;
   background-position: left;
-  background-image: url('../src/assets/img/tumblr_inline_p8c0ywl30E1rhwzwl_100.png');
-  background-size: 1.5vh;
+  background-image: url('https://64.media.tumblr.com/6505ea8fcfb38705c74f9afda0473fa6/e20f83b00e4c1559-57/s500x750/5f2dde5347fcbc12af2af7667c41654b815e997b.png');
+  background-size: 3.5vh;
   background-repeat: no-repeat;
   height: 20px;
   
@@ -95,8 +95,8 @@
 .cupcake{
   list-style: none;
   background-position: left;
-  background-image: url('../src/assets/img/tumblr_inline_p8c0ywl30E1rhwzwl_100.png');
-  background-size: 1.5vh;
+  background-image: url('https://img2.freepng.es/20180511/uuq/kisspng-sailor-moon-sailor-tattoos-drawing-5af5a911ca8146.0662371615260490418295.jpg');
+  background-size: 3.5vh;
   background-repeat: no-repeat;
   height: 20px;
 
@@ -105,8 +105,8 @@
 .cake{
   list-style: none;
   background-position: left;
-  background-image: url('../src/assets/img/tumblr_inline_p8c0ywl30E1rhwzwl_100.png');
-  background-size: 1.5vh;
+  background-image: url('https://e1.pngegg.com/pngimages/181/335/png-clipart-luna-sailor-moon-purple-and-black-cat-illustration-thumbnail.png');
+  background-size: 5.5vh;
   background-repeat: no-repeat;
   height: 20px;
 }
@@ -114,11 +114,11 @@
 .linksig {
   list-style: none;
   background-position: left;
-  background-image: url('../src/assets/img/instagram.png');
-  background-size: 1.9vh;
+  background-image: url('https://lh3.googleusercontent.com/proxy/0bPgcZ3hqwAxohOIqsucsh6aLW6YdBfceXPsCbOn1UKGVwnyanqA3YNEb5IpQi3Brb4HjBzl6skpbfsWpnGc2v-vAP66UmdYTeJp2kUfz4TBiczbHXl5oLQvsmNt9ueBcrw6ksNlRCkfIJ1P7OFiHhNnQBaeO6k');
+  background-size: 2.5vh;
   background-repeat: no-repeat;
   height: 20px;
-  margin-left: 5px;
+  margin-left: 40px;
   font-size: 1.5vh;
 
 }
@@ -126,11 +126,11 @@
 .linkstw {
   list-style: none;
   background-position: left;
-  background-image: url('../src/assets/img/580b57fcd9996e24bc43c53e.png');
-  background-size: 1.5vh;
+  background-image: url('https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-4.png');
+  background-size: 2.5vh;
   background-repeat: no-repeat;
   height: 20px;
-  margin-left: 5px;
+  margin-left: 40px;
   font-size: 1.8vh;
 }
 
